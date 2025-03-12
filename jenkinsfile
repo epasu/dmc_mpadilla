@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Entrenar Modelo') {
             steps {
-                sh 'python main.py train'
+                sh 'python mlops_caso1103.py train'
             }
         }
         stage('Desplegar API') {
