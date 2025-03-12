@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clonar Repositorio') {
             steps {
-                git 'https://github.com/tu-usuario/mlops-pipeline.git'
+                git 'https://github.com/epasu/dmc_mpadilla.git'
             }
         }
         stage('Instalar Dependencias') {
